@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.asus.swipecards.SwipeCards xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="300dp">
+        <TextView
+            android:textSize="30sp"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:text="嘿_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="300dp">
+        <TextView
+            android:textSize="30sp"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:text="嘿_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="300dp">
+        <TextView
+            android:textSize="30sp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="嘿_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+</com.example.asus.swipecards.SwipeCards>
